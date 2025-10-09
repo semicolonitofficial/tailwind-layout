@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Layout</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="max-w-7xl mx-auto">
+
+  <div class="grid grid-cols-5 gap-10 border-2 p-10">
+
+    
+
+ 
+
+   <div class="h-screen bg-orange-200 p-3">
+      <!-- Side bar -->
+    <section>
+      <aside >
+        <menu>
+
+        <ul class="space-y-3">
+          <li class="bg-blue-400 text-white p-2">Dashboard</li>
+          <li class="bg-blue-400 text-white p-2">Customer</li>
+          <li class="bg-blue-400 text-white p-2">Supplier</li>
+        </ul>
+
+      </menu>
+        
+      </aside>
+    
+    </section>
+   </div>
+
+   <div class="col-span-4">
+       <!-- Header section -->
+    <section>
+      <header class="bg-cyan-400 w-full">
+        <nav class="flex justify-between py-3 px-2">
+          <span>
+            <img class="w-52" src="logo_orange.png" alt="logo">
+          </span>
+          <ul class="flex space-x-5 text-lg">
+            <li class="hover:bg-black hover:text-white px-4 py-3 hover:rounded-2xl"><a href="#">Sign in</a></li>
+            <li class="hover:bg-black hover:text-white px-4 py-3 hover:rounded-2xl"><a href="#">profile</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <!-- main -->
+    <section>
+      <main class="bg-yellow-200">
+
+        <div class="flex justify-around border-2 p-3">
+
+          <div class="bg-cyan-400 p-20">1</div>
+          <div class="bg-cyan-400 p-20">1</div>
+          <div class="bg-cyan-400 p-20">1</div>
+
+        </div>
+        <div>
+          <div><h1 class="text-white text-7xl p-20 font-bold text-shadow-[10px_5px_5px_rgb(0_0_0_/_0.25)]">This is heading</h1></div>
+          <div></div>
+
+        </div>
+
+      </main>
+    </section>
+   </div>
+  </div>
+
+  
+  
+</body>
+</html>
+
+
